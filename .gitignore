@@ -1,0 +1,6 @@
+mta_archives/
+
+# auto generated wildcard
+PantaleonFinal/db/.env
+# auto generated wildcard
+BTP_ECS/Spatial/.env

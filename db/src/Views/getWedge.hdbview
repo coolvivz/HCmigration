@@ -1,0 +1,4 @@
+VIEW " .Views::getWedge" 
+AS SELECT ID , USUARIO , " .Functions::WEDGE"(LONGITUD, LATITUD, TIPOC, (DIRECCION), APERTURA) as WEDGE 
+FROM " .synonyms::FRENTE" WHERE 
+LATITUD > -90; 
